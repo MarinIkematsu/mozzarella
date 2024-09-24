@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+    width: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    /* font-family: "Playwrite BE VLG", cursive; */
+    background-color: #ffffff;
+    color: #000000;
+    text-align: center;
+    padding: 15px 0;
+    margin-bottom: 10px;
+}
