@@ -1,0 +1,11 @@
+<h1>Auth page</h1>
+
+<div>
+  <h2>ユーザ作成</h2>
+  <form action="{% url 'signup' %}" method="post">
+    {% csrf_token %}
+    <input type="text" name="username" placeholder="ユーザー名" />
+    <input type="password" name="password" placeholder="パスワード" />
+    <input type="submit" value="ユーザー作成" />
+  </form>
+</div>
